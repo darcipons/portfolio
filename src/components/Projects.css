@@ -1,5 +1,5 @@
 .project-container {
-  height: 100vh;
+  height: 100%;
   background-color: black;
 }
 
@@ -13,4 +13,29 @@
 hr {
   width: 20%;
   background-color: #ecddde;
+}
+
+.card-columns {
+  padding: 2rem 10rem;
+}
+
+.card {
+  background-color: #ecddde !important;
+}
+
+.card-title.h5 {
+  font-size: 30px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.list-group-item {
+  border: none !important;
+  background-color: #ecddde !important;
+}
+
+.card-link {
+  font-size: 18px;
 }
