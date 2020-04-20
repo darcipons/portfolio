@@ -5,16 +5,15 @@ import './Navbar.css'
 const Navigation = () => {
   return (
     <Navbar expand="lg" className='navbar'>
-    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-    <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto nav-links">
-        <Nav.Link href="#home" className='link'>Home</Nav.Link>
-        <Nav.Link href="#projects" className='link'>Projects</Nav.Link>
-        <Nav.Link href="#about" className='link'>About</Nav.Link>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
- 
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto nav-links">
+          <Nav.Link href="#home" className='link'>Home</Nav.Link>
+          <Nav.Link href="#projects" className='link'>Projects</Nav.Link>
+          <Nav.Link href="#about" className='link'>About</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   )
 }
 
