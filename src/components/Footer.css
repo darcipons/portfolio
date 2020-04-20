@@ -1,0 +1,17 @@
+.contact {
+  text-align: center;
+  font-size: 30px;
+  background-color: #ecddde ;
+  padding: 2rem 0;
+}
+
+.contact_me{
+  margin-bottom: 1rem;
+}
+
+.icons {
+  height: 4%;
+  width: 4%;
+  padding-top: 60px;
+  padding: 10px;
+}
