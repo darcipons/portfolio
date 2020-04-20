@@ -1,0 +1,39 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 98vh;
+}
+
+.about-left {
+  grid-column: 1;
+  background-color: black;
+}
+
+.profile-container {
+  justify-self: center;
+}
+
+.profile-pic {
+  width: 50%;
+  border-radius: 2rem;
+  margin: 15% 0 0 25%;
+}
+
+.about-right {
+  grid-column: 2;
+  background-color: #ecddde;
+}
+
+.about-description {
+  font-size: 25px;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.about-description.one {
+  padding-top: 15rem;
+}
+
+.about-description.two {
+  padding-top: 2rem;
+}
