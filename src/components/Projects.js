@@ -28,7 +28,7 @@ const Projects = () => {
               <Card.Link href="https://github.com/darcipons/random_dog" target="_blank">GitHub</Card.Link>
             </ListGroupItem>
             <ListGroupItem>
-              <Card.Link href="https://darcipons.github.io/random_dog/">Live Code</Card.Link>
+              <Card.Link href="https://darcipons.github.io/random_dog/">Live Site</Card.Link>
             </ListGroupItem>
           </ListGroup>
         </Card>
@@ -76,7 +76,7 @@ const Projects = () => {
               <Card.Link href="#" target="_blank">GitHub</Card.Link>
             </ListGroupItem>
             <ListGroupItem>
-              <Card.Link href="https://wyn-hangry.herokuapp.com" target="_blank">Live Code</Card.Link>
+              <Card.Link href="https://wyn-hangry.herokuapp.com" target="_blank">Live Site</Card.Link>
             </ListGroupItem>
           </ListGroup>
         </Card>
