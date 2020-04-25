@@ -25,15 +25,43 @@
 }
 
 .about-description {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   padding: 0 2rem;
 }
 
 .about-description.one {
-  padding-top: 15rem;
+  padding-top: 5rem;
 }
 
 .about-description.two {
   padding-top: 2rem;
 }
+
+@media only screen and (max-width: 450px) {
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .about-left {
+    height: 50vh;
+  }
+
+  .profile-pic {
+    margin-bottom: 15%;
+  }
+
+  .about-right {
+    padding: 2rem;
+  }
+
+  .about-description {
+    font-size: 15px;
+  }
+
+  .about-description.one {
+    padding: 0 0;
+  }
+ }

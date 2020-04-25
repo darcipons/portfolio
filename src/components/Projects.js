@@ -14,6 +14,7 @@ const Projects = () => {
       <div className='project-title'>Projects</div>
       <hr></hr>
 
+      
       <CardColumns>
         <Card>
           <Card.Img variant="top" src={Dog} />

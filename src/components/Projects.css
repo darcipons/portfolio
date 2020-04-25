@@ -4,7 +4,7 @@
 }
 
 .project-title {
-  font-size: 50px;
+  font-size: 40px;
   color: #ecddde;
   text-align: center;
   padding-top: 5rem;
@@ -24,12 +24,12 @@ hr {
 }
 
 .card-title.h5 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
 }
 
 .card-text {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .list-group-item {
@@ -38,5 +38,31 @@ hr {
 }
 
 .card-link {
-  font-size: 18px;
+  font-size: 15px;
 }
+
+@media only screen and (max-width: 450px) {
+
+  .project-title {
+    font-size: 25px;
+    padding-top: 8rem;
+  }
+
+  .card-columns {
+    padding: 2rem 6rem;
+  }
+
+  .card {
+    width: 15rem;
+  }
+
+  .card-title.h5 {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+
+
+ }

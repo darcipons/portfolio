@@ -17,21 +17,46 @@
 }
 
 .home-title {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .home-description {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .home-right {
   grid-column: 2;
   background-color: black;
 }
+
 .home-pic-container {
   margin-left: 5rem;
+  margin-top: 5rem;
 }
 
 .illustration {
   width: 90%;
+}
+
+@media only screen and (max-width: 450px) {
+
+ .home-container {
+   display: flex;
+   flex-direction: column;
+   background-color: #ecddde;
+   height: 80vh;
+ }
+
+ .home-title {
+   font-size: 20px;
+ }
+
+ .home-description {
+   font-size: 12px;
+ }
+
+ .home-right {
+   display: none;
+ }
+
 }
